@@ -1,0 +1,42 @@
+{
+	"Formations":{
+		"collection":"formations",
+		"schema":{
+			"libelle":"String",
+			"duree":"String",
+			"plan_cours":"String",
+			"prix":"String",
+			"formateurs":[{"type": "ObjectId","ref": "Formateurs" }]
+		}
+	},
+	"Formateurs":{
+		"collection":"formateurs",
+		"schema":{
+			"_id":"ObjectId",
+			"nom":"String",
+			"prenom":"String",
+			"statut":"String",
+			"prix_jour":"Number"
+		}
+	},
+	"Users":{
+		"collection":"users",
+		"schema":{
+			"name":"String",
+			"firstname":"String",
+			"login":"String",
+			"mdp":"String",
+			"function":"String",
+			"office":"String",
+			"date_naiss":"String",
+			"adresse1":"String",
+			"adresse2":"String",
+			"cp":"String",
+			"city":"String",
+			"mobil_phone":"String",
+			"home_phone":"String"
+		}
+	}
+
+
+}

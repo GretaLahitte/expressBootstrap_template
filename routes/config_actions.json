@@ -1,0 +1,7 @@
+{
+	"GET/" : {"controler" : "index"},
+	"GET/admin" : {"controler": "admin"},
+	"GET/login" : {"controler" : "login"},
+	"GET/logout" : {"controler" : "logout"}
+
+}
