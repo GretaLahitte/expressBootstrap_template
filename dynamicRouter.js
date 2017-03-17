@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 var appContext
 var url = require("url");
-
+//dynamicRouter
 function dynamicRouter(app){
 	appContext = app;
 	router.use(manageAction);
